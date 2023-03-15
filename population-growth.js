@@ -4,7 +4,7 @@ const nbYear = (population, percent, migrationRate, populationTarget) => {
     while (population < populationTarget && population > 0){
         population = population * decPercent + migrationRate
         years++
-        console.log(population)
+        // console.log(population)
         // console.log(years)
 
     }
